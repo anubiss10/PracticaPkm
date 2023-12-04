@@ -31,6 +31,7 @@
           },
           "configurations": {
             "production": {
+              
               "budgets": [
                 {
                   "type": "initial",
@@ -71,7 +72,8 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "Pokedex:build"
+            "browserTarget": "Pokedex:build",
+            "baseHref": "/pokedex/"
           }
         },
         "test": {
